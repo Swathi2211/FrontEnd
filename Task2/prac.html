@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://kit.fontawesome.com/79558a8290.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,500;1,700&display=swap"
+        rel="stylesheet">
+
+    <style>
+        
+        *{
+            margin:0px;
+            top:0px;
+        }
+
+        .end{
+            background:url('../Task2/image/royal.jpeg') no-repeat center/cover;
+            height:500px;
+            width: 100%;
+        }
+        
+        
+#navb {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:20px;
+}
+
+#navb div {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 10px;
+
+}
+
+#navb .pos img {
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+#th{
+    display: grid;
+    grid-template-columns: repeat(3,33.33%);
+    gap:20px;
+    margin-right:70px;
+    justify-content: left;
+}
+
+#th1{
+    width:350px;
+}
+
+#black{
+    background-color: rgb(2, 11, 52);
+    color: white;
+    display:flex;
+    flex-wrap:wrap;
+    align-items: top;
+    justify-content: space-evenly;
+    height:400px;
+    
+}
+
+#black hr{
+    width:94%;
+    height:0px;
+    margin-bottom:0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#black .items{
+    margin-top:100px;
+}
+
+
+#th2{
+    width:300px;
+}
+
+
+#label1 {
+display:flex;
+position:relative;
+top:10px;
+}
+
+#label1 input{
+
+padding:20px;
+width:250px;
+height:10px;
+position:absolute;
+
+}
+
+#label1 button{
+
+color:white;
+background-color: #ea980b;
+width:100px;
+height:40px;
+border-color: #ea980b;
+position:relative;
+margin-left:62%;
+margin-top:7px;
+
+}
+
+/* Copy */
+.copy .box .item{
+    margin-left:15px;
+}
+.copy .box{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.copy{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left:50px;
+    margin-right:60px;
+}
+
+
+
+    </style>
+
+
+
+
+</head>
+
+<body>
+
+
+    <i class="fa-sharp fa-light fa-phone"></i>
+
+    <!-- END -->
+    <div id="black">
+        <div class="items">
+            <h2 style="color:#ea980b">Company</h2>
+            <ul type="circle" style="margin-left:-20px; margin-top: 20px;">
+                <li>About Us</li>
+                <li>Contact Us</li>
+                <li>Privacy Policy</li>
+                <li>Terms & consition</li>
+                <li>FAQs & Help</li>
+            </ul>
+        </div>
+        <div class="items">
+            <h2 style="color:#ea980b">Contact</h2>
+            <ul type="none" style="margin-left:-40px; margin-top: 20px;">
+                <li><img src="../TaskCreateTemplate/image/loco.png" alt="none" width="20px" height="20px" style="margin-right:10px;">123 Street,
+                    New York, USA</li>
+    
+                <li><img src="../TaskCreateTemplate/image/phone.jpg" alt="none" width="20px" height="20px" style="margin-right:10px;">+012 345 6789
+                </li>
+    
+                <li><img src="../TaskCreateTemplate/image/loco.png" alt="none" width="20px"
+                        height="20px" style="margin-right:10px;">mail@domain.com</li>
+            </ul>
+    
+            <div id="navb">
+                <div class="pos">
+                    <img src="../TaskCreateTemplate/image/twiwhi.png" alt="no" width="20px" height="20px">
+                </div>
+                <div class="pos">
+                    <img src="../TaskCreateTemplate/image/f.png" alt="no" width="20px" height="20px">
+                </div>
+    
+                <div class="pos">
+                    <img src="../TaskCreateTemplate/image/y.png" alt="no" width="20px" height="20px">
+                </div>
+    
+                <div class="pos">
+                    <img src="../TaskCreateTemplate/image/ln.png" alt="no" width="20px" height="20px">
+                </div>
+            </div>
+    
+        </div>
+        <div class="items" id="th1" style="width:150px">
+            <h2 style="color:#ea980b; margin-bottom: 20px;">Opening</h2>
+            <p>Monday - Saturday</p>
+            <p>09AM - 09PM</p>
+            <br>
+            <p>Sunday</p>
+            <p>10AM - 08PM</p>
+        </div>
+        <div class="items" id="th2">
+            <h2 style="color:#ea980b;margin-bottom: 20px;;">Newsletter</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum soluta pariatur iste inventore a ratione illo eligendi dolore nemo tenetur.</p>
+            <div id="label1">
+    
+                <input type="text" placeholder="Your Email" id="link">
+    
+                <button id="col">Sign Up</button>
+    
+            </div>
+        </div>
+    
+        <hr>
+        
+    </div>
+
+    <div id="bg">
+        <div class="copy">
+            <hr style="width:95%; background-color:white;margin-left:auto;margin-right:auto; margin-bottom:20px;">
+            <div class="box">
+                <p>&copy;<span style="text-decoration: underline;">Your Site Name,</span> All Rights Reserved. Designed By <span style="text-decoration: underline;">HTML Codex</span></p>
+            </div>
+            <ul class="box" type="none">
+        
+                <li class="item">
+                    <a href="#">Home</a>
+                </li>
+                <li class="item">
+                    <a href="#">Cookies</a>
+                </li>
+                <li class="item">
+                    <a href="#">Help</a>
+                </li>
+                <li class="item">
+                    <a href="#">FAQs</a>
+                </li>
+                
+        
+            </ul>
+        </div>
+        </div>
+
+
+</body>
+
+</html>
